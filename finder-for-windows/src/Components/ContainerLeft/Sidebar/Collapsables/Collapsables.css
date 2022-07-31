@@ -1,0 +1,50 @@
+.collapsable {
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    height: max-content;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 7.5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-weight: 800;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(81, 81, 84);
+    font-weight: 500;
+    /* background-color: rgb(229, 229, 234); */
+    padding: 5.5px 5px 5.5px 5px;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.collapsable-tiem-text {
+    font-size: 10pt;
+    margin: 0px;
+    padding: 0px 0px 0px 24px;
+}
