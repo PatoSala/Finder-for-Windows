@@ -1,5 +1,6 @@
-containerRight {
-    width: 100%;
-    height: 100vh;
+.containerRight {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: --systemGray6;
 }

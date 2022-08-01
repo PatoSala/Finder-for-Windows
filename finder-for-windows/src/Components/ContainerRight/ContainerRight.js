@@ -1,59 +1,31 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import './ContainerRight.css';
 
+// Components
+import NavigationBar from "./NavigationBar/NavigationBar";
 
-
-function Recents() {
-    return (
-        <div style={{height: '100%', display: 'flex', alignItems: 'center', backgroundColor: 'red', position: 'absolute'}}>
-            Recents
-        </div>
-    )
-}
-
-function Applications() {
-    return (
-        <div style={{width: '100%', height: '100%', display: 'flex', alignItems: 'center', backgroundColor: 'red'}}>
-            Applications
-        </div>
-    )
-}
-
-function Desktop() {
-    return (
-        <div style={{flex: 1, alignItems: 'center'}}>
-            Desktop
-        </div>
-    )
-}
-
-function Documents() {
-    return (
-        <div style={{flex: 1, alignItems: 'center'}}>
-            Documents
-        </div>
-    )
-}
-
-function Downloads() {
-    return (
-        <div style={{flex: 1, alignItems: 'center'}}>
-            Documents
-        </div>
-    )
-}
-
+// Pages
+import Recents from "./Pages/Recents";
+import Applications from "./Pages/Applications";
+import Desktop from "./Pages/Desktop";
+import Documents from "./Pages/Documents";
+import Downloads from "./Pages/Downloads";
 
 
 function ContainerRight() {
     return (
         <div className="containerRight">
+            <NavigationBar/>
             <Routes>
+                <Route index element={<Recents/>}/>
                 <Route path="/Recents" element={<Recents/>}/>
                 <Route path="/Applications" element={<Applications/>}/>
                 <Route path="/Desktop" element={<Desktop/>}/>
-                <Route path="/Documents" element={<Downloads/>}/>
+                <Route path="/Documents" element={<Documents/>}/>
+                <Route path="/Downloads" element={<Downloads/>}/>
             </Routes>
+
         </div>
     )
 }

@@ -6,10 +6,10 @@ import ContainerRight from '../ContainerRight/ContainerRight.js';
 
 function FinderWrapper() {
     return (
-        <>
+        <div style={{display: 'flex'}}>
             <ContainerLeft/>
             <ContainerRight/>
-        </>
+        </div>
     )
 }
 

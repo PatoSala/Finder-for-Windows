@@ -26,7 +26,7 @@ function Favourites() {
                     <Link to={"/Recents"} style={{textDecoration: 'none'}}>
                         <li style={{backgroundColor: useLocation().pathname === '/Recents' ? 'rgb(229, 229, 234)' : 'transparent'}}>
                             <div className="icon-container">
-                                <IoTimeOutline size={16} color="#06c"/>
+                                <IoTimeOutline size={16} color="rgb(2, 97, 239)"/>
                             </div>
                             <p className="collapsable-tiem-text">Recents</p>
                         </li>
@@ -36,7 +36,7 @@ function Favourites() {
                     <Link to={"/Applications"} style={{textDecoration: 'none'}}>
                         <li style={{backgroundColor: useLocation().pathname === '/Applications' ? 'rgb(229, 229, 234)' : 'transparent'}}>
                             <div className="icon-container">
-                                <SiAppstore size={13} color="#06c"/>
+                                <SiAppstore size={13} color="rgb(2, 97, 239)"/>
                             </div>
                             <p className="collapsable-tiem-text">Applications</p>
                         </li>
@@ -46,7 +46,7 @@ function Favourites() {
                     <Link to={"/Desktop"} style={{textDecoration: 'none'}}>
                         <li style={{backgroundColor: useLocation().pathname === '/Desktop' ? 'rgb(229, 229, 234)' : 'transparent'}}>
                             <div className="icon-container">
-                                <IoIosDesktop size={16} color="#06c"/>
+                                <IoIosDesktop size={16} color="rgb(2, 97, 239)"/>
                             </div>
                             <p className="collapsable-tiem-text">Desktop</p>
                         </li>
@@ -55,7 +55,7 @@ function Favourites() {
                     <Link to={"/Documents"} style={{textDecoration: 'none'}}>
                         <li style={{backgroundColor: useLocation().pathname === '/Documents' ? 'rgb(229, 229, 234)' : 'transparent'}}>
                             <div className="icon-container">
-                                <IoDocumentOutline size={16} color="#06c"/>
+                                <IoDocumentOutline size={16} color="rgb(2, 97, 239)"/>
                             </div>
                             <p className="collapsable-tiem-text">Documents</p>
                         </li>
@@ -64,7 +64,7 @@ function Favourites() {
                     <Link to={"/Downloads"} style={{textDecoration: 'none'}}>
                         <li style={{backgroundColor: useLocation().pathname === '/Downloads' ? 'rgb(229, 229, 234)' : 'transparent'}}>
                             <div className="icon-container">
-                                <IoArrowDownCircleOutline size={16} color="#06c"/>
+                                <IoArrowDownCircleOutline size={16} color="rgb(2, 97, 239)"/>
                             </div>
                             <p className="collapsable-tiem-text">Downloads</p>
                         </li>

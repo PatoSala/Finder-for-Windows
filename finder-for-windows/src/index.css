@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --systemGray6: rgb(242, 242, 247)
+  --systemGray6: rgb(242, 242, 247);
+  --fontPrimary: rgb(76, 73, 74);
+  --electricBlue: rgb(2, 97, 239);
 }
 
 body {
