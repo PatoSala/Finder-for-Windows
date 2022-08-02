@@ -4,6 +4,7 @@ import './Sidebar.css';
 // Collapsables
 import Favourites from './Collapsables/Favourites';
 import Locations from './Collapsables/Locations';
+import Tags from './Collapsables/Tags';
 
 function Sidebar() {
     return (
@@ -11,6 +12,7 @@ function Sidebar() {
 
             <Favourites/>
             <Locations/>
+            <Tags/>
 
         </div>
     )

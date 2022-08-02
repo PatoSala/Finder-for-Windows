@@ -6,13 +6,22 @@
   --electricBlue: rgb(2, 97, 239);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 body {
+  width: 100vw;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {

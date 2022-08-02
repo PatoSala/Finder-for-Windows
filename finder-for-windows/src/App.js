@@ -6,7 +6,7 @@ import FinderWrapper from './Components/FinderWrapper/FinderWrapper.js';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" style={{borderRadius: "8px"}}>
         <FinderWrapper/>
       </div>
     </BrowserRouter>
