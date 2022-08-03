@@ -1,0 +1,13 @@
+.chevron-container {
+    border: 0px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px;
+    background-color: transparent;
+}
+
+.chevron-container:hover {
+    background-color: rgb(236, 229, 230);
+}
