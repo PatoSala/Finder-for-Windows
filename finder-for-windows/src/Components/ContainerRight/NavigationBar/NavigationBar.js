@@ -17,7 +17,7 @@ function NavigationBar() {
             </div>
 
             <div className="current-dir">
-                <h2 className="navbar-title">{useLocation().pathname}</h2>
+                <h2 className="navbar-title">{useLocation().pathname.replace('/', '')}</h2>
             </div>
 
         </div>

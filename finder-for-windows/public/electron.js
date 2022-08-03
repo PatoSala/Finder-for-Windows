@@ -12,9 +12,7 @@ function createWindow() {
       nodeIntegration: true,
     },
     icon: path.join(__dirname, '../src/assets/icon.png'),
-    titleBarStyle: 'hidden',
-    frame: false,
-    transparent: true
+    titleBarStyle: "hiddenInset"
   });
 
   // and load the index.html of the app.

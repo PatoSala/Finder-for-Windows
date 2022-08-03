@@ -1,14 +1,14 @@
 import React from 'react';
-import './Sidebar.css';
+/* import './Sidebar.css'; */
 
 // Collapsables
-import Favourites from './Collapsables/Favourites';
-import Locations from './Collapsables/Locations';
-import Tags from './Collapsables/Tags';
+import Favourites from '../Collapsables/Favourites';
+import Locations from '../Collapsables/Locations';
+import Tags from '../Collapsables/Tags';
 
 function Sidebar() {
     return (
-        <div className="sidebar">
+        <div className="sidebar" style={styles}>
 
             <Favourites/>
             <Locations/>
@@ -19,3 +19,9 @@ function Sidebar() {
 }
 
 export default Sidebar;
+
+const styles = {
+    width: '100%',
+    height: '100%',
+    paddingTop: '55px'
+}
