@@ -6,4 +6,5 @@
     overflow: hidden;
     resize: horizontal;
     background-color: rgb(250, 250, 249);
+    border-right: 1px solid rgb(232, 232, 232);
 }

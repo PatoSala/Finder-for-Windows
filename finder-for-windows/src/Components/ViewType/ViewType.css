@@ -4,11 +4,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3px 5px;
-    background-color: transparent;
+    background-color: rgb(242, 243, 243, 0);
+
+}
+
+.viewType-container:hover {
+    background-color: rgb(242, 243, 243, 1);
+}
+
+.active {
+    background-color: rgb(210, 210, 210, 0.5);
+}
+
+.viewType-container:hover .active {
+    background-color: rgb(210, 210, 210, 1);
 }
 
 .viewType-button {
     border: 0px;
-    padding: 3px 5px;
+    background-color: transparent;
+    border-radius: inherit;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.line {
+    height: 20px;
+    width: 1px;
+    background-color: rgb(229, 229, 234);
 }
