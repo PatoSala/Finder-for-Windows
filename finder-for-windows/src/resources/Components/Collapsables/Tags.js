@@ -7,7 +7,7 @@ import { IoEllipse, IoChevronForward } from 'react-icons/io5';
 
 function Tags() {
 
-    const [collapse, setCollapse] = useState(true);
+    const [collapse, setCollapse] = useState(false);
 
     return (
         <div className="collapsable" style={{height: collapse ? 'max-content' : '15px'}}>

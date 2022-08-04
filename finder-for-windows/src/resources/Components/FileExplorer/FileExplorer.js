@@ -1,21 +1,21 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import './ContainerRight.css';
+import './FileExplorer.css';
 
 // Components
 import NavigationBar from "./NavigationBar/NavigationBar";
 
 // Pages
-import Recents from "./Pages/Recents";
-import Applications from "./Pages/Applications";
-import Desktop from "./Pages/Desktop";
-import Documents from "./Pages/Documents";
-import Downloads from "./Pages/Downloads";
+import Recents from "../../Pages/Recents";
+import Applications from "../../Pages/Applications";
+import Desktop from "../../Pages/Desktop";
+import Documents from "../../Pages/Documents";
+import Downloads from "../../Pages/Downloads";
 
 
-function ContainerRight() {
+function FileExplorer() {
     return (
-        <div className="containerRight">
+        <div className="file-explorer">
             <NavigationBar/>
             <Routes>
                 <Route index element={<Recents/>}/>
@@ -30,4 +30,4 @@ function ContainerRight() {
     )
 }
 
-export default ContainerRight;
+export default FileExplorer;

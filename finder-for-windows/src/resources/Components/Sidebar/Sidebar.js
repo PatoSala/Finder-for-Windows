@@ -1,5 +1,5 @@
 import React from 'react';
-/* import './Sidebar.css'; */
+import './Sidebar.css';
 
 // Collapsables
 import Favourites from '../Collapsables/Favourites';

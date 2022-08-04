@@ -1,6 +1,5 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 import ChevronButton from '../../ChevronButton/ChevronButton';
 import ViewType from '../../ViewType/ViewType';
 import './NavigationBar.css';

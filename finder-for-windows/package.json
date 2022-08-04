@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "cross-env": "^7.0.3",
     "directory-tree": "^3.3.0",
+    "drivelist": "^11.0.0",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "react": "^18.2.0",

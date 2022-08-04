@@ -1,6 +1,7 @@
-.containerRight {
+.file-explorer {
     display: flex;
     flex: 1;
     flex-direction: column;
     background-color: --systemGray6;
+    width: 100%;
 }

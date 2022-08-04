@@ -10,8 +10,10 @@ function createWindow() {
     height: 800,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
+      preload: './preload.js'
     },
-    icon: path.join(__dirname, '../src/assets/icon.png'),
+    icon: path.join(__dirname, '../src/resources/assets/icon.png'),
     titleBarStyle: "hiddenInset"
   });
 
